@@ -239,7 +239,7 @@ help me create weather app similar to this picture. this application will be dep
 ```
 
 **Image**:
-![Force Vision](/assets/weather-app.png)
+![Force Vision](./assets/weather-report.png)
 
 **Expected Output**:
 - A .NET Core application code structure for a weather app, including models for weather data, user interface components, and API endpoints.
@@ -264,7 +264,7 @@ Create a web page based on the PRD and the image.
 ```
 
 **Image**:
-![Force Vision](/assets/cloud-architect-landing-page.png)
+![Force Vision](./assets/csa-ui-mvp.png
 
 **Expected Output**:
 - A Product Requirements Document (PRD) outlining the structure and content of a landing page for cloud architects.
