@@ -264,7 +264,7 @@ Create a web page based on the PRD and the image.
 ```
 
 **Image**:
-![Force Vision](./assets/csa-ui-mvp.png
+![Force Vision](./assets/csa-ui-mvp.png)
 
 **Expected Output**:
 - A Product Requirements Document (PRD) outlining the structure and content of a landing page for cloud architects.
