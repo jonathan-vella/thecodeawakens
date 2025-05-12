@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo 01: Jedi Terminal Wisdom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: #000 url('../assets/stars.gif'));
+      color: #ffe81f;
+      font-family: 'Share Tech Mono', monospace, Arial, sans-serif;
+      letter-spacing: 0.5px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(0,0,0,0.85);
+      border-radius: 12px;
+      box-shadow: 0 0 24px #222;
+      padding: 2rem 1.5rem;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Share Tech Mono', monospace, Arial, sans-serif;
+      color: #ffe81f;
+      text-shadow: 0 0 8px #ffe81f, 0 0 2px #00bfff;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    a.button {
+      display: inline-block;
+      margin: 1.5rem 0 0 0;
+      padding: 0.5rem 1.5rem;
+      background: #222;
+      color: #ffe81f;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 2px solid #ffe81f;
+      transition: background 0.2s, color 0.2s;
+    }
+    a.button:hover {
+      background: #ffe81f;
+      color: #222;
+    }
+    code, pre {
+      background: #222;
+      color: #ffe81f;
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 1em;
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0.5em 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    pre {
+      margin: 0.5em 0;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 1rem 0.5rem;
+      }
+      h1 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>💻 Demo 01: Jedi Terminal Wisdom</h1>
+    <p><strong>Purpose</strong>: Demonstrate how GitHub Copilot CLI can explain complex shell commands in natural language, enhancing developer understanding of terminal operations.</p>
+    <p><strong>Mode</strong>: Standard</p>
+    <pre><code>gh copilot explain sudo apt-get</code></pre>
+    <a class="button" href="docs/index.html">&#8592; Back to Landing Page</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo 03: Droid Deployment & the Force of the FileOps</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: #000 url('../assets/stars.gif'));
+      color: #ffe81f;
+      font-family: 'Share Tech Mono', monospace, Arial, sans-serif;
+      letter-spacing: 0.5px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(0,0,0,0.85);
+      border-radius: 12px;
+      box-shadow: 0 0 24px #222;
+      padding: 2rem 1.5rem;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Share Tech Mono', monospace, Arial, sans-serif;
+      color: #ffe81f;
+      text-shadow: 0 0 8px #ffe81f, 0 0 2px #00bfff;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    a.button {
+      display: inline-block;
+      margin: 1.5rem 0 0 0;
+      padding: 0.5rem 1.5rem;
+      background: #222;
+      color: #ffe81f;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 2px solid #ffe81f;
+      transition: background 0.2s, color 0.2s;
+    }
+    a.button:hover {
+      background: #ffe81f;
+      color: #222;
+    }
+    code, pre {
+      background: #222;
+      color: #ffe81f;
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 1em;
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0.5em 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    pre {
+      margin: 0.5em 0;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 1rem 0.5rem;
+      }
+      h1 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🛠️ Demo 03: Droid Deployment & the Force of the FileOps</h1>
+    <p><strong>Purpose</strong>: Demonstrate Copilot for Azure's assistance with deployment workflows and advanced PowerShell scripting capabilities for automation tasks.</p>
+    <h3>Part A: Azure Extension</h3>
+    <p><strong>Mode</strong>: Copilot for Azure</p>
+    <pre><code>Could you help me create and deploy a simple Flask website by using an azd template?
+@azure Before I execute azd init, what does it do?
+@azure What resources are created with this template?
+@azure Are there any cost-saving tips for running this app on Azure?
+@azure how can i make this application highly available?
+@azure How do I undeploy this website?</code></pre>
+    <h3>Part B: File Operations Script</h3>
+    <p><strong>Mode</strong>: Standard → Boosted</p>
+    <pre><code>I need 1 powershell script to create 100 random folders with 100 random files; file size must vary between a few kb to a max 50mb.
+I need another powershell script to automate file operations such as copying, moving, deleting, compressing, and extracting while capturing metrics for each operation, including duration, data size, and throughput. Operations should be split into 2 options - 1 for copying, moving, deleting; 2 for compressing, and extracting.</code></pre>
+    <a class="button" href="docs/index.html">&#8592; Back to Landing Page</a>
+  </div>
+</body>
+</html>

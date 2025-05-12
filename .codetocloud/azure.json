@@ -1,0 +1,18 @@
+{
+  "iacTypes": [
+    "bicep"
+  ],
+  "resources": [
+    {
+      "type": "azureopenai",
+      "instances": [
+        {
+          "name": "azureopenaiinstance"
+        }
+      ]
+    }
+  ],
+  "bindings": [],
+  "services": [],
+  "settings": []
+}
