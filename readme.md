@@ -213,14 +213,9 @@ Update the README.md file for this project. It should include:
     *   Logs into Azure.
     *   Deploys the application to the specified Azure App Service.
     *   (Agent mode would help create and commit this file).
-6.  **Updated README.md**: A revised README file incorporating the requested information and a Mermaid diagram like:
-    ```mermaid
-    graph LR
-        User --> AppService[Azure App Service];
-        AppService --> CosmosDB[Azure Cosmos DB];
-        GitHubActions[GitHub Actions] --> AppService;
-    end
-    ```
+6.  **Updated README.md**: A revised README file incorporating the requested information and a Mermaid diagram.
+    *   The diagram should illustrate the new architecture, showing the flow from Azure App Service to Cosmos DB.
+    *   The README should be clear, concise, and suitable for developers looking to understand the project setup and deployment process.
 
 **Purpose**:
 To demonstrate GitHub Copilot's advanced capabilities in handling a multi-step application modernization scenario. This includes:
